@@ -1,0 +1,122 @@
+html{
+	background-color: #AA9039;
+	position: center;
+}
+
+body {
+	background-color: #B6A773;
+	font-family: Helvetica;
+	font-weight: lighter;
+	font-size: 14;
+	color: black;
+	border: 1px solid white;
+	padding: 3px;
+	width: 940px;
+	align-items: middle;
+
+}
+
+header {
+	background-image: url("../images/Gustav_Klimt_04.jpg");
+	border: 1px solid white;
+	height: 300px;
+	width: 930px;
+}
+
+h1.header{
+	font-size: 60px;
+	text-align: left;
+	padding-top: 70px;
+	padding-left: 20px;
+	color: white;
+}
+
+nav{
+	border: 1px solid white;
+
+}
+
+ul{
+	list-style-type: none;
+	font-weight: bold;
+	padding: 8px;
+	margin: 0px;
+	background-color: white;
+	width: 940px;
+	
+	overflow: hidden;
+}
+
+
+li{
+	color: #B6A773;
+	display:inline;
+	background-color: white;
+	padding: 6px ;
+	margin:0px;
+	padding-left: 100px;
+	
+}
+
+.active{
+	background-color: #9E7B05;
+}
+
+header h1 {
+	font-family: Kaushan Script, cursive;
+}
+
+@font-face{
+	font-family: Kaushan Script;
+	src: url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+}
+
+article {
+	border: 1px solid white;
+	padding: 5px;
+	margin: 2px;
+
+}
+
+.content{
+	border: 3px solid white;
+	height: 700px;
+	width: 360px;
+	padding: 20px;
+	margin:10px;
+	
+}
+
+.content1{
+	border: 3px solid white;
+	height: 700px;
+	width: 360px;
+	padding: 20px;
+	margin:10px;
+	float: right;
+	
+
+
+}
+
+
+p{
+	text-align: justify;
+	line-height: 1.5em;
+}
+
+img.article1{
+
+}
+
+img.article2{
+	width: 200px;
+	height: 150px;
+
+}
+
+footer{
+	font-family: Kaushan Script, cursive;
+	font-size: 10;
+	padding: 10px;
+}
